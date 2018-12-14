@@ -99,6 +99,7 @@ export default class News extends React.Component {
           <li><a href="#" onClick={this.searchNewsAPI} name="everything?q=technology">Technology News</a></li>
           <li><a href="#" onClick={this.searchNewsAPI} name="top-headlines?country=ie&category=weather">Weather in Ireland</a></li>
         </ul>
+        
         { /* Display a title based on source */}
         <h3>{this.state.newsSource.split("-").join(" ")}</h3>
         <div>
